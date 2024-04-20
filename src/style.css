@@ -1,1 +1,16 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+section {
+  position: relative; /* Needed for absolute positioning context */
+  height: 100vh; /* Full viewport height */
+  text-align: center; /* Centers the text */
+  margin: 0;
+}
+.button {
+  position: absolute;
+  bottom: 20px; /* Position the button 20px from the bottom of the section */
+  left: 50%; /* Center it horizontally */
+  transform: translateX(-50%); /* Offset by half its width to truly center it */
+}
+.excuse {
+  font-size: 20px;
+  color: navy;
+}
